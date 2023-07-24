@@ -4,3 +4,6 @@ connect to the store's wifi, scan and pay for items in app. The app uses Google 
 
 ![Untitled design (19)](https://github.com/xtrsx/SkipQ/assets/53543562/cdd8eea2-691c-4239-ba1c-ca1a40115122)
 
+![Untitled design (18)](https://github.com/xtrsx/SkipQ/assets/53543562/e0186fd3-8985-42ef-aaa6-7cd6c7926c01)
+
+
