@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ProfileFragment"
+    tools:ignore="HardcodedText"
+    >
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="Account"
+           android:layout_gravity="center"
+           android:layout_marginTop="25dp"
+           android:textColor="@color/primary_gray"
+           android:textSize="18sp"
+           android:letterSpacing="0.1"
+           android:layout_marginBottom="20dp"
+           />
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_marginStart="25dp"
+           android:layout_marginEnd="15dp"
+           android:layout_marginTop="10dp"
+           >
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Profile"
+                  android:layout_centerVertical="true"
+                  android:textSize="15sp"
+                  android:textColor="@color/primary_gray"
+                     />
+              <ImageView
+                  android:layout_width="18dp"
+                  android:layout_height="18dp"
+                  android:src="@drawable/next"
+                  android:layout_alignParentEnd="true"
+                  android:layout_centerVertical="true"
+                     />
+       </RelativeLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@drawable/horizontal_gray"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="10dp"
+              />
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_marginStart="25dp"
+           android:layout_marginEnd="15dp"
+           android:layout_marginTop="10dp"
+           >
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="My Cards"
+                  android:layout_centerVertical="true"
+                  android:textSize="15sp"
+                  android:textColor="@color/primary_gray"
+                  />
+              <ImageView
+                  android:layout_width="18dp"
+                  android:layout_height="18dp"
+                  android:src="@drawable/next"
+                  android:layout_alignParentEnd="true"
+                  android:layout_centerVertical="true"
+                  />
+       </RelativeLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@drawable/horizontal_gray"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="10dp"
+           />
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_marginStart="25dp"
+           android:layout_marginEnd="15dp"
+           android:layout_marginTop="10dp"
+           >
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Receipt History"
+                  android:layout_centerVertical="true"
+                  android:textSize="15sp"
+                  android:textColor="@color/primary_gray"
+                  />
+              <ImageView
+                  android:layout_width="18dp"
+                  android:layout_height="18dp"
+                  android:src="@drawable/next"
+                  android:layout_alignParentEnd="true"
+                  android:layout_centerVertical="true"
+                  />
+       </RelativeLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@drawable/horizontal_gray"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="10dp"
+           />
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_marginStart="25dp"
+           android:layout_marginEnd="15dp"
+           android:layout_marginTop="10dp"
+           >
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Bonus Card"
+                  android:layout_centerVertical="true"
+                  android:textSize="15sp"
+                  android:textColor="@color/primary_gray"
+                  />
+              <ImageView
+                  android:layout_width="18dp"
+                  android:layout_height="18dp"
+                  android:src="@drawable/next"
+                  android:layout_alignParentEnd="true"
+                  android:layout_centerVertical="true"
+                  />
+       </RelativeLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@drawable/horizontal_gray"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="10dp"
+           />
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_marginStart="25dp"
+           android:layout_marginEnd="15dp"
+           android:layout_marginTop="10dp"
+           >
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="About Us"
+                  android:layout_centerVertical="true"
+                  android:textSize="15sp"
+                  android:textColor="@color/primary_gray"
+                  />
+              <ImageView
+                  android:layout_width="18dp"
+                  android:layout_height="18dp"
+                  android:src="@drawable/next"
+                  android:layout_alignParentEnd="true"
+                  android:layout_centerVertical="true"
+                  />
+       </RelativeLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@drawable/horizontal_gray"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="10dp"
+           />
+
+       <RelativeLayout
+           android:layout_width="match_parent"
+           android:layout_height="50dp"
+           android:layout_marginStart="25dp"
+           android:layout_marginEnd="15dp"
+           android:layout_marginTop="10dp"
+           >
+              <TextView
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="Help"
+                  android:layout_centerVertical="true"
+                  android:textSize="15sp"
+                  android:textColor="@color/primary_gray"
+                  />
+              <ImageView
+                  android:layout_width="18dp"
+                  android:layout_height="18dp"
+                  android:src="@drawable/next"
+                  android:layout_alignParentEnd="true"
+                  android:layout_centerVertical="true"
+                  />
+       </RelativeLayout>
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="1dp"
+           android:background="@drawable/horizontal_gray"
+           android:layout_marginStart="20dp"
+           android:layout_marginEnd="10dp"
+           />
+
+
+
+</LinearLayout>

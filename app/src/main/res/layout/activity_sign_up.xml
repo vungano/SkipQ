@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:ignore="HardcodedText"
+    tools:context=".SignUp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Let's know you before we start"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:textSize="16sp"
+        />
+
+    <EditText
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/login_textbox"
+        android:hint="First Name(s)"
+        android:inputType="textCapWords"
+        android:textColor="@color/gray_text"
+        android:paddingHorizontal="10dp"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="35dp"
+        android:background="@drawable/login_textbox"
+        android:hint="Last Name"
+        android:inputType="textCapWords"
+        android:textColor="@color/gray_text"
+        android:paddingHorizontal="10dp"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/login_textbox"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/gray_text"
+        android:paddingHorizontal="10dp"
+        android:textSize="15sp"
+        />
+
+    <EditText
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginHorizontal="30dp"
+        android:background="@drawable/login_textbox"
+        android:hint="Phone Number"
+        android:inputType="number"
+        android:textColor="@color/gray_text"
+        android:paddingHorizontal="10dp"
+        android:textSize="15sp"
+        />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginHorizontal="45dp"
+        android:layout_marginTop="150dp"
+        android:text="GET STARTED"
+        android:background="@drawable/gradient_button"
+        />
+
+</LinearLayout>

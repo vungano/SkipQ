@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyCards"
+    tools:ignore="HardcodedText"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_marginHorizontal="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="15dp"
+        app:cardElevation="10dp"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/background7"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginStart="20dp"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:text="My Cards"
+                android:textColor="@color/white"
+                android:id="@+id/cardLogoName"
+                />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="42dp"
+                android:src="@drawable/chip"
+                android:layout_below="@id/cardLogoName"
+                android:layout_marginLeft="45dp"
+                android:layout_marginTop="25dp"
+                android:id="@+id/cardChip"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/cardChip"
+                android:text="Emmanuel T. Vungano"
+                android:textColor="@color/white"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="30dp"
+                android:textSize="16sp"
+                android:letterSpacing="0.15"
+                android:id="@+id/cardNumber"
+                />
+
+            <ImageView
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:src="@drawable/mastercard"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="25dp"
+                android:layout_marginTop="5dp"
+                />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Cards"
+        android:layout_marginStart="35dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_cards_list"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="25dp"
+        android:divider="@null"
+        />
+
+</LinearLayout>

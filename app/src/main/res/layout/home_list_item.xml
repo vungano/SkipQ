@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="175dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:ignore="RtlHardcoded, HardcodedText, UnusedAttribute"
+    tools:targetApi="p"
+    android:background="@color/white"
+    >
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:outlineSpotShadowColor="@color/gray_text"
+        android:layout_marginHorizontal="3dp"
+        android:layout_marginVertical="7dp"
+        app:cardElevation="8dp"
+        app:cardCornerRadius="3dp"
+       >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="3dp"
+            android:paddingBottom="5dp"
+            android:paddingHorizontal="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/promoImg"
+                android:layout_width="80dp"
+                android:layout_height="100dp"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="10dp"
+                android:contentDescription="Promo Item Image"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/promoImg"
+                android:text="Nutella 500g"
+                android:textColor="@color/primary_gray"
+                android:layout_marginTop="3dp"
+                android:layout_marginLeft="3dp"
+                android:textSize="16sp"
+                android:id="@+id/discount_description"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_below="@id/discount_description"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="4dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$"
+                    android:textColor="@color/gray_text"
+                    android:id="@+id/first_dollar_sign"
+                    android:foreground="@drawable/strike_through"
+                    android:layout_gravity="center"
+                    android:textSize="14sp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2.19"
+                    android:textColor="@color/gray_text"
+                    android:id="@+id/old_price"
+                    android:foreground="@drawable/strike_through"
+                    android:layout_gravity="center"
+                    android:textSize="14sp"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="$"
+                    android:id="@+id/second_dollar_sign"
+                    android:textSize="16sp"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="4dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1.99"
+                    android:id="@+id/new_price"
+                    android:textSize="16sp"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/discount_badge"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="0dp"
+                android:paddingHorizontal="6dp"
+                android:paddingVertical="1dp"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:text="-20%"
+                    android:textColor="@color/white"
+                    android:textSize="12sp"
+                    android:id="@+id/discountPct"
+                    />
+            </RelativeLayout>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>
